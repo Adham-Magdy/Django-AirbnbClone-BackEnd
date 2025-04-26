@@ -1,0 +1,822 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "authentication_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "user_account.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "user_account.models",
+        "description": "user_account.models",
+        "detail": "user_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "user_account.models",
+        "description": "user_account.models",
+        "isExtraImport": true,
+        "detail": "user_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "djangobnb_backend.asgi",
+        "description": "djangobnb_backend.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "djangobnb_backend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-ipb2g&=ir+ub8i5#w!ndsgn4xoo80e65uy+_0l^d#pe*spyqt%\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = \"user_account.USER\"\n# Application definition",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-ipb2g&=ir+ub8i5#w!ndsgn4xoo80e65uy+_0l^d#pe*spyqt%\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = \"user_account.USER\"\n# Application definition\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=60),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=7),\n    \"ROTATE_REFRESH_TOKEN\": False,",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = \"user_account.USER\"\n# Application definition\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=60),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=7),\n    \"ROTATE_REFRESH_TOKEN\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,\n    \"UPDATE_LAST_LOGIN\": True,",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\nAUTH_USER_MODEL = \"user_account.USER\"\n# Application definition\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=60),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=7),\n    \"ROTATE_REFRESH_TOKEN\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"SIGNING_KEY\": \"acomplexkey\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "AUTH_USER_MODEL = \"user_account.USER\"\n# Application definition\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=60),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=7),\n    \"ROTATE_REFRESH_TOKEN\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"SIGNING_KEY\": \"acomplexkey\",\n    \"ALOGRIGTHM\": \"HS512\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=60),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=7),\n    \"ROTATE_REFRESH_TOKEN\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"SIGNING_KEY\": \"acomplexkey\",\n    \"ALOGRIGTHM\": \"HS512\",\n}\nACCOUNT_USER_MODEL_USERNAME_FIELD = None",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_USER_MODEL_USERNAME_FIELD",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "ACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_AUTHENTICATION_METHOD = \"email\"\nACCOUNT_EMAIL_VERIFICATION = None\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ),\n    \"DEFAULT_PERMISSION_CLASSES\": (\"rest_framework.permissions.IsAuthenticated\",),",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_EMAIL_REQUIRED",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_AUTHENTICATION_METHOD = \"email\"\nACCOUNT_EMAIL_VERIFICATION = None\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ),\n    \"DEFAULT_PERMISSION_CLASSES\": (\"rest_framework.permissions.IsAuthenticated\",),\n}",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_USERNAME_REQUIRED",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "ACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_AUTHENTICATION_METHOD = \"email\"\nACCOUNT_EMAIL_VERIFICATION = None\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ),\n    \"DEFAULT_PERMISSION_CLASSES\": (\"rest_framework.permissions.IsAuthenticated\",),\n}\nWEBSITE_URL = 'http://127.0.0.1:8000'",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_AUTHENTICATION_METHOD",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "ACCOUNT_AUTHENTICATION_METHOD = \"email\"\nACCOUNT_EMAIL_VERIFICATION = None\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ),\n    \"DEFAULT_PERMISSION_CLASSES\": (\"rest_framework.permissions.IsAuthenticated\",),\n}\nWEBSITE_URL = 'http://127.0.0.1:8000'\nCORS_ALLOWED_ORIGINS = [",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_EMAIL_VERIFICATION",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "ACCOUNT_EMAIL_VERIFICATION = None\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ),\n    \"DEFAULT_PERMISSION_CLASSES\": (\"rest_framework.permissions.IsAuthenticated\",),\n}\nWEBSITE_URL = 'http://127.0.0.1:8000'\nCORS_ALLOWED_ORIGINS = [\n    \"http://127.0.0.1:8000\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ),\n    \"DEFAULT_PERMISSION_CLASSES\": (\"rest_framework.permissions.IsAuthenticated\",),\n}\nWEBSITE_URL = 'http://127.0.0.1:8000'\nCORS_ALLOWED_ORIGINS = [\n    \"http://127.0.0.1:8000\",\n    \"http://127.0.0.1:3000\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WEBSITE_URL",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "WEBSITE_URL = 'http://127.0.0.1:8000'\nCORS_ALLOWED_ORIGINS = [\n    \"http://127.0.0.1:8000\",\n    \"http://127.0.0.1:3000\",\n]\nCORS_ALLOW_ALL_ORIGINS = True\nREST_AUTH = {\"USE_JWT\": True, \"JWT_AUTH_HTTPONLY\": False}\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://127.0.0.1:8000\",\n    \"http://127.0.0.1:3000\",\n]\nCORS_ALLOW_ALL_ORIGINS = True\nREST_AUTH = {\"USE_JWT\": True, \"JWT_AUTH_HTTPONLY\": False}\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nREST_AUTH = {\"USE_JWT\": True, \"JWT_AUTH_HTTPONLY\": False}\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_AUTH",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "REST_AUTH = {\"USE_JWT\": True, \"JWT_AUTH_HTTPONLY\": False}\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"rest_framework.authtoken\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"rest_framework.authtoken\",\n    \"rest_framework_simplejwt\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "ROOT_URLCONF = \"djangobnb_backend.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"djangobnb_backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"test_db\",\n        \"USER\": \"root\",\n        \"PASSWORD\": \"Adham..13.9\",\n        \"HOST\": \"127.0.0.1\",",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"test_db\",\n        \"USER\": \"root\",\n        \"PASSWORD\": \"Adham..13.9\",\n        \"HOST\": \"127.0.0.1\",\n        \"PORT\": \"3306\",\n    }\n}",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = \"static/\"\n# Define the base URL for serving media files\nMEDIA_URL = '/media/'\n# Specify the directory where media files are stored\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = \"static/\"\n# Define the base URL for serving media files\nMEDIA_URL = '/media/'\n# Specify the directory where media files are stored\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_URL = \"static/\"\n# Define the base URL for serving media files\nMEDIA_URL = '/media/'\n# Specify the directory where media files are stored\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "USE_TZ = True\nSTATIC_URL = \"static/\"\n# Define the base URL for serving media files\nMEDIA_URL = '/media/'\n# Specify the directory where media files are stored\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Define the base URL for serving media files\nMEDIA_URL = '/media/'\n# Specify the directory where media files are stored\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\n# Specify the directory where media files are stored\nMEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "djangobnb_backend.urls",
+        "description": "djangobnb_backend.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/properties',include('property.url'))\n]",
+        "detail": "djangobnb_backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "djangobnb_backend.wsgi",
+        "description": "djangobnb_backend.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "djangobnb_backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "property.migrations.0001_initial",
+        "description": "property.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Property',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),",
+        "detail": "property.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "getProperties",
+        "kind": 2,
+        "importPath": "property.api",
+        "description": "property.api",
+        "peekOfCode": "def getProperties(request):\n    properties = Property.objects.all()\n    serializers = PropertySerializer(properties,many=True)\n    return JsonResponse({\n        'data':serializers.data\n    })",
+        "detail": "property.api",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyConfig",
+        "kind": 6,
+        "importPath": "property.apps",
+        "description": "property.apps",
+        "peekOfCode": "class PropertyConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'property'",
+        "detail": "property.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Property",
+        "kind": 6,
+        "importPath": "property.models",
+        "description": "property.models",
+        "peekOfCode": "class Property(models.Model):\n    id = models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)\n    title = models.CharField(max_length=255)\n    description = models.TextField()\n    price_per_night = models.PositiveIntegerField()\n    bedrooms = models.PositiveIntegerField()\n    bathrooms = models.PositiveIntegerField()\n    guests = models.PositiveIntegerField()\n    country = models.CharField(max_length=255)\n    country_code = models.CharField(max_length=10)",
+        "detail": "property.models",
+        "documentation": {}
+    },
+    {
+        "label": "PropertySerializer",
+        "kind": 6,
+        "importPath": "property.serializers",
+        "description": "property.serializers",
+        "peekOfCode": "class PropertySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Property\n        fields=(\n            'id',\n            'title',\n            'price_per_night',\n            'image_url'\n        )",
+        "detail": "property.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user_account.migrations.0001_initial",
+        "description": "user_account.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('password', models.CharField(max_length=128, verbose_name='password')),",
+        "detail": "user_account.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UserAccountConfig",
+        "kind": 6,
+        "importPath": "user_account.apps",
+        "description": "user_account.apps",
+        "peekOfCode": "class UserAccountConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'user_account'",
+        "detail": "user_account.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserManager",
+        "kind": 6,
+        "importPath": "user_account.models",
+        "description": "user_account.models",
+        "peekOfCode": "class CustomUserManager(UserManager):\n    def _create_user(self,name,email,password,**extra_fields):\n        # check if not valid email\n        if not email:\n            raise ValueError(\"You must have specified valid email address\")\n        email = self.normalize_email(email)\n        user = self.model(email=email,name=name,**extra_fields)\n        user.set_password(password)\n        user.save(using=self.db)\n        return user",
+        "detail": "user_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "user_account.models",
+        "description": "user_account.models",
+        "peekOfCode": "class User(AbstractBaseUser,PermissionsMixin):\n    id = models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)\n    email= models.EmailField(unique=True)\n    name = models.CharField(max_length=255,blank=True,null=True)\n    avatar = models.ImageField(upload_to='uploads/avatars')\n    is_active = models.BooleanField(default=True)\n    is_staff = models.BooleanField(default=False)\n    is_superuser = models.BooleanField(default=False)\n    date_joined = models.DateTimeField(auto_now_add=True)\n    last_login = models.DateTimeField(blank=True,null=True)",
+        "detail": "user_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('bin') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.10/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len('bin') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.10/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.10/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.10/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.10/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '../lib/python3.10/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "venv.bin.activate_this",
+        "description": "venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangobnb_backend.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
