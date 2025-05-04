@@ -235,6 +235,14 @@
         "documentation": {}
     },
     {
+        "label": "PropertyForm",
+        "importPath": "property.forms",
+        "description": "property.forms",
+        "isExtraImport": true,
+        "detail": "property.forms",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -742,7 +750,16 @@
         "kind": 2,
         "importPath": "property.api",
         "description": "property.api",
-        "peekOfCode": "def getProperties(request):\n    properties = Property.objects.all()\n    serializers = PropertySerializer(properties,many=True)\n    return JsonResponse({\n        'data':serializers.data\n    })",
+        "peekOfCode": "def getProperties(request):\n    properties = Property.objects.all()\n    serializers = PropertySerializer(properties,many=True)\n    return JsonResponse({\n        'data':serializers.data\n    })\n# POST Property Data\n@api_view(['POST','FILES'])\ndef create_property(request):\n    form = PropertyForm(request.POST,request.FILES)",
+        "detail": "property.api",
+        "documentation": {}
+    },
+    {
+        "label": "create_property",
+        "kind": 2,
+        "importPath": "property.api",
+        "description": "property.api",
+        "peekOfCode": "def create_property(request):\n    form = PropertyForm(request.POST,request.FILES)\n    # check form validation\n    if form.is_valid():\n        property = form.save(commit=False)\n        property.landlord = request.user\n        property.save()\n        return JsonResponse({'success':True})\n    else:\n        print(\"error:\",form.errors,form.non_field_errors)",
         "detail": "property.api",
         "documentation": {}
     },
