@@ -81,6 +81,54 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -104,30 +152,6 @@
         "importPath": "uuid",
         "description": "uuid",
         "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -227,6 +251,14 @@
         "documentation": {}
     },
     {
+        "label": "ModelForm",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
         "label": "user_account.models",
         "kind": 6,
         "isExtraImport": true,
@@ -305,6 +337,54 @@
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
         "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "get_refresh_view",
+        "importPath": "dj_rest_auth.jwt_auth",
+        "description": "dj_rest_auth.jwt_auth",
+        "isExtraImport": true,
+        "detail": "dj_rest_auth.jwt_auth",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "importPath": "dj_rest_auth.registration.views",
+        "description": "dj_rest_auth.registration.views",
+        "isExtraImport": true,
+        "detail": "dj_rest_auth.registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "importPath": "dj_rest_auth.views",
+        "description": "dj_rest_auth.views",
+        "isExtraImport": true,
+        "detail": "dj_rest_auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "dj_rest_auth.views",
+        "description": "dj_rest_auth.views",
+        "isExtraImport": true,
+        "detail": "dj_rest_auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserDetailsView",
+        "importPath": "dj_rest_auth.views",
+        "description": "dj_rest_auth.views",
+        "isExtraImport": true,
+        "detail": "dj_rest_auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenVerifyView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
         "documentation": {}
     },
     {
@@ -635,7 +715,7 @@
         "kind": 5,
         "importPath": "djangobnb_backend.urls",
         "description": "djangobnb_backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/properties',include('property.url'))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/properties',include('property.url')),\n    path('api/auth/',include('user_account.url'))\n]+ static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)",
         "detail": "djangobnb_backend.urls",
         "documentation": {}
     },
@@ -673,6 +753,15 @@
         "description": "property.apps",
         "peekOfCode": "class PropertyConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'property'",
         "detail": "property.apps",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyForm",
+        "kind": 6,
+        "importPath": "property.forms",
+        "description": "property.forms",
+        "peekOfCode": "class PropertyForm(ModelForm):\n    class Meta:\n        model = Property\n        fields = (\n            'title',\n            'description',\n            'price_per_night',\n            'bedrooms',\n            'bathrooms',\n            'guests',",
+        "detail": "property.forms",
         "documentation": {}
     },
     {
@@ -727,6 +816,15 @@
         "description": "user_account.models",
         "peekOfCode": "class User(AbstractBaseUser,PermissionsMixin):\n    id = models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)\n    email= models.EmailField(unique=True)\n    name = models.CharField(max_length=255,blank=True,null=True)\n    avatar = models.ImageField(upload_to='uploads/avatars')\n    is_active = models.BooleanField(default=True)\n    is_staff = models.BooleanField(default=False)\n    is_superuser = models.BooleanField(default=False)\n    date_joined = models.DateTimeField(auto_now_add=True)\n    last_login = models.DateTimeField(blank=True,null=True)",
         "detail": "user_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "user_account.url",
+        "description": "user_account.url",
+        "peekOfCode": "urlpatterns = [\n    path('register/', RegisterView.as_view(), name='rest_register'),\n    path('login/', LoginView.as_view(), name='rest_login'),\n    path('logout/', LogoutView.as_view(), name='rest_logout'),\n]",
+        "detail": "user_account.url",
         "documentation": {}
     },
     {
