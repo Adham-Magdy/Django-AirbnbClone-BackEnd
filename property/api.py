@@ -17,7 +17,7 @@ def getProperties(request):
     })
 
 # POST Property Data
-@api_view(['POST','FILES'])
+@api_view(['POST', 'FILES'])
 def create_property(request):
     form = PropertyForm(request.POST,request.FILES)
     
