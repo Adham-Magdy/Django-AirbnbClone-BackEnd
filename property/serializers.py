@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 from .models import Property
+from user_account.serializers import UserDetailSerializer
 
 
 class PropertySerializer(serializers.ModelSerializer):
@@ -17,6 +18,7 @@ class PropertySerializer(serializers.ModelSerializer):
 
 
 class PropertyDetailSerializer(serializers.ModelSerializer):
+    landlord = UserDetailSerializer(read_only = True,many=False)
     class Meta:
         model = Property
         fields = (
