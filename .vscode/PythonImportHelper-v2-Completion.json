@@ -292,6 +292,22 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "UserDetailSerializer",
+        "importPath": "user_account.serializers",
+        "description": "user_account.serializers",
+        "isExtraImport": true,
+        "detail": "user_account.serializers",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -552,7 +568,7 @@
         "kind": 5,
         "importPath": "djangobnb_backend.settings",
         "description": "djangobnb_backend.settings",
-        "peekOfCode": "WEBSITE_URL = 'http://127.0.0.1:8000'\nCORS_ALLOWED_ORIGINS = [\n    \"http://127.0.0.1:8000\",\n    \"http://127.0.0.1:3000\",\n]\nCORS_ALLOW_ALL_ORIGINS = True\nREST_AUTH = {\"USE_JWT\": True, \"JWT_AUTH_HTTPONLY\": False}\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",",
+        "peekOfCode": "WEBSITE_URL = 'http://127.0.0.1:8000'\nCORS_ALLOWED_ORIGINS = [\n    \"http://127.0.0.1:8000\",\n    \"http://127.0.0.1:3000\",\n]\nCSRF_TRUSTED_ORIGINS = [\n    'http://127.0.0.1:8000',\n    'http://127.0.0.1:3000',\n]\nCORS_ALLOW_ALL_ORIGINS = True",
         "detail": "djangobnb_backend.settings",
         "documentation": {}
     },
@@ -561,7 +577,16 @@
         "kind": 5,
         "importPath": "djangobnb_backend.settings",
         "description": "djangobnb_backend.settings",
-        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://127.0.0.1:8000\",\n    \"http://127.0.0.1:3000\",\n]\nCORS_ALLOW_ALL_ORIGINS = True\nREST_AUTH = {\"USE_JWT\": True, \"JWT_AUTH_HTTPONLY\": False}\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://127.0.0.1:8000\",\n    \"http://127.0.0.1:3000\",\n]\nCSRF_TRUSTED_ORIGINS = [\n    'http://127.0.0.1:8000',\n    'http://127.0.0.1:3000',\n]\nCORS_ALLOW_ALL_ORIGINS = True\nREST_AUTH = {\"USE_JWT\": True, \"JWT_AUTH_HTTPONLY\": False}",
+        "detail": "djangobnb_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "djangobnb_backend.settings",
+        "description": "djangobnb_backend.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\n    'http://127.0.0.1:8000',\n    'http://127.0.0.1:3000',\n]\nCORS_ALLOW_ALL_ORIGINS = True\nREST_AUTH = {\"USE_JWT\": True, \"JWT_AUTH_HTTPONLY\": False}\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
         "detail": "djangobnb_backend.settings",
         "documentation": {}
     },
@@ -723,7 +748,7 @@
         "kind": 5,
         "importPath": "djangobnb_backend.urls",
         "description": "djangobnb_backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/properties',include('property.url')),\n    path('api/auth/',include('user_account.url'))\n]+ static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/properties/',include('property.urls')),\n    path('api/auth/',include('user_account.url'))\n]+ static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)",
         "detail": "djangobnb_backend.urls",
         "documentation": {}
     },
@@ -750,7 +775,16 @@
         "kind": 2,
         "importPath": "property.api",
         "description": "property.api",
-        "peekOfCode": "def getProperties(request):\n    properties = Property.objects.all()\n    serializers = PropertySerializer(properties,many=True)\n    return JsonResponse({\n        'data':serializers.data\n    })\n# POST Property Data\n@api_view(['POST','FILES'])\ndef create_property(request):\n    form = PropertyForm(request.POST,request.FILES)",
+        "peekOfCode": "def getProperties(request):\n    properties = Property.objects.all()\n    serializers = PropertySerializer(properties,many=True)\n    return JsonResponse({\n        'data':serializers.data\n    })\n@api_view(['GET'])\n@permission_classes([])\n@authentication_classes([])\ndef property_details(request,pk):",
+        "detail": "property.api",
+        "documentation": {}
+    },
+    {
+        "label": "property_details",
+        "kind": 2,
+        "importPath": "property.api",
+        "description": "property.api",
+        "peekOfCode": "def property_details(request,pk):\n    property = Property.objects.get(pk=pk)\n    serializer = PropertyDetailSerializer(property,many=False)\n    return JsonResponse(serializer.data)\n# POST Property Data\n@api_view(['POST', 'FILES'])\ndef create_property(request):\n    form = PropertyForm(request.POST,request.FILES)\n    # check form validation\n    if form.is_valid():",
         "detail": "property.api",
         "documentation": {}
     },
@@ -795,7 +829,16 @@
         "kind": 6,
         "importPath": "property.serializers",
         "description": "property.serializers",
-        "peekOfCode": "class PropertySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Property\n        fields=(\n            'id',\n            'title',\n            'price_per_night',\n            'image_url'\n        )",
+        "peekOfCode": "class PropertySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Property\n        fields = (\n            'id',\n            'title',\n            'price_per_night',\n            'image_url'\n        )\nclass PropertyDetailSerializer(serializers.ModelSerializer):",
+        "detail": "property.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyDetailSerializer",
+        "kind": 6,
+        "importPath": "property.serializers",
+        "description": "property.serializers",
+        "peekOfCode": "class PropertyDetailSerializer(serializers.ModelSerializer):\n    landlord = UserDetailSerializer(read_only = True,many=False)\n    class Meta:\n        model = Property\n        fields = (\n            'id',\n            'title',\n            'price_per_night',\n            'description',\n            'image_url',",
         "detail": "property.serializers",
         "documentation": {}
     },
@@ -833,6 +876,15 @@
         "description": "user_account.models",
         "peekOfCode": "class User(AbstractBaseUser,PermissionsMixin):\n    id = models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)\n    email= models.EmailField(unique=True)\n    name = models.CharField(max_length=255,blank=True,null=True)\n    avatar = models.ImageField(upload_to='uploads/avatars')\n    is_active = models.BooleanField(default=True)\n    is_staff = models.BooleanField(default=False)\n    is_superuser = models.BooleanField(default=False)\n    date_joined = models.DateTimeField(auto_now_add=True)\n    last_login = models.DateTimeField(blank=True,null=True)",
         "detail": "user_account.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserDetailSerializer",
+        "kind": 6,
+        "importPath": "user_account.serializers",
+        "description": "user_account.serializers",
+        "peekOfCode": "class UserDetailSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields=(\n            'id','name','avatar_url'\n        )",
+        "detail": "user_account.serializers",
         "documentation": {}
     },
     {

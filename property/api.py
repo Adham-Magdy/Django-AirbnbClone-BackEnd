@@ -24,9 +24,7 @@ def property_details(request,pk):
     property = Property.objects.get(pk=pk)
     serializer = PropertyDetailSerializer(property,many=False)
     
-    return JsonResponse({
-        'data',serializer.data
-    })
+    return JsonResponse(serializer.data)
     
 # POST Property Data
 @api_view(['POST', 'FILES'])
