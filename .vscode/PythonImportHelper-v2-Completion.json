@@ -121,6 +121,14 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "static",
         "importPath": "django.conf.urls.static",
         "description": "django.conf.urls.static",
@@ -152,6 +160,22 @@
         "importPath": "uuid",
         "description": "uuid",
         "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -771,6 +795,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "property.migrations.0002_reservation",
+        "description": "property.migrations.0002_reservation",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('property', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Reservation',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),",
+        "detail": "property.migrations.0002_reservation",
+        "documentation": {}
+    },
+    {
         "label": "getProperties",
         "kind": 2,
         "importPath": "property.api",
@@ -798,6 +831,15 @@
         "documentation": {}
     },
     {
+        "label": "book_property",
+        "kind": 2,
+        "importPath": "property.api",
+        "description": "property.api",
+        "peekOfCode": "def book_property(request,pk):\n    try:\n        start_date = request.POST.get('start_date','')\n        end_date = request.POST.get('end_date','')\n        number_of_nights= request.POST.get('number_of_nights','')\n        guests = request.POST.get('guests','')\n        total_price = request.POST.get('total_price','')\n        # get property based on his id\n        property = Property.objects.get(pk=pk)\n        # create reservation",
+        "detail": "property.api",
+        "documentation": {}
+    },
+    {
         "label": "PropertyConfig",
         "kind": 6,
         "importPath": "property.apps",
@@ -821,6 +863,15 @@
         "importPath": "property.models",
         "description": "property.models",
         "peekOfCode": "class Property(models.Model):\n    id = models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)\n    title = models.CharField(max_length=255)\n    description = models.TextField()\n    price_per_night = models.PositiveIntegerField()\n    bedrooms = models.PositiveIntegerField()\n    bathrooms = models.PositiveIntegerField()\n    guests = models.PositiveIntegerField()\n    country = models.CharField(max_length=255)\n    country_code = models.CharField(max_length=10)",
+        "detail": "property.models",
+        "documentation": {}
+    },
+    {
+        "label": "Reservation",
+        "kind": 6,
+        "importPath": "property.models",
+        "description": "property.models",
+        "peekOfCode": "class Reservation(models.Model):\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    property = models.ForeignKey(Property, related_name='reservations', on_delete=models.CASCADE)\n    start_date = models.DateField()\n    end_date = models.DateField()\n    number_of_nights = models.IntegerField()\n    guests = models.IntegerField()\n    total_price = models.FloatField()\n    created_by = models.ForeignKey(User, related_name='reservations', on_delete=models.CASCADE)\n    created_at = models.DateTimeField(auto_now_add=True)",
         "detail": "property.models",
         "documentation": {}
     },
